@@ -9,4 +9,7 @@
 def select_winner(passengers)
   # add the code snippet here!
   passengers.each { |suite, person| 
+    if person[0] == 'A'
+      puts person
+    end}
 end
